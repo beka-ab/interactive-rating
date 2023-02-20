@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh   ;
+    background-color: hsla(218, 11%, 8%, 1);
+}
+.div_star{
+    margin-top: 24px;
+    background-color: hsla(213, 19%, 18%, 1);
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.mainc_div{
+    background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+    width: 87.2vw;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 15px;
+
+}
+h1{
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-top: 16px;
+    margin-bottom: 10px;
+
+}
+p{
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #969FAD;
+
+}
+.buttons{
+    display: flex;
+    gap: 18px ;
+    margin-bottom: 24px;
+    margin-top: 24px;
+}
+.btn{
+    border-radius: 50%;
+    width: 51px;
+    height: 51px    ;
+    border: 0px;
+    background: hsla(213, 19%, 18%, 1);
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.175px;
+    color: #7C8798;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#submit:hover{
+    cursor: pointer;
+    background: #FFFFFF;
+    color: #FC7614;
+
+}
+.btn.clicked{
+    background: #7C8798; 
+    color:#FFFFFF;
+    cursor: pointer;
+}
+#submit{
+    margin-bottom: 32px;
+    width: 100%;
+    border-radius: 22.5px;
+    border: 0px;
+    height: 6.3vh;
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1.86667px;
+    color: #FFFFFF;
+    background: hsla(25, 97%, 53%, 1);
+
+}
+
+.divAfterSub{
+    background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+    width: 87.2vw;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.subImage{
+    margin-top: 34px;
+}
+.subP{
+    margin: 5px 11px 5px 11px;
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #FC7614;
+}
+.subPSecond{
+    text-align: center;
+    margin-bottom: 37px;
+}
+.orangeDiv{
+    margin-top: 24px;
+    background: #262E38;
+    border-radius: 22.5px;
+    width: 60%;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.reviewPoint{
+    color: red;
+    font-weight: bold;
+}
+.reviewPoint.pointColor{
+    color: #FC7614;
+    font-weight: bold;
+}
+
+@media (min-width:900px){
+   .mainc_div{
+    width:412px ;
+    height: 416px;
+   }
+   .divAfterSub{
+    width:412px ;
+    height: 416px;
+   }
+}
